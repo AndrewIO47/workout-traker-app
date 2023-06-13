@@ -20,8 +20,6 @@ function clean_first_tr(firstTr) {
     });
 }
 
-
-
 function remove_tr(This) {
     if(This.closest('tbody').childElementCount == 1)
     {
