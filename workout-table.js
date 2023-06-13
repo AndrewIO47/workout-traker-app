@@ -25,8 +25,9 @@ function clean_first_tr(firstTr) {
 function remove_tr(This) {
     if(This.closest('tbody').childElementCount == 1)
     {
-        alert("You Don't have Permission to Delete This ?");
+        alert("Can't Delete All Tables");
     }else{
         This.closest('tr').remove();
     }
+    
 }
