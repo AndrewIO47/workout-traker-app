@@ -107,3 +107,12 @@ body {
     transition: unset;
     transform: scale(.95);
 }
+
+._table th {
+    text-align: center; 
+}
+
+._table td input[type="text"] {
+    text-align: center;
+  }
+  
