@@ -1,3 +1,3 @@
 function redirectToMainPage() {
-    window.location.href = 'main-page.html';
+    window.location.href = 'main-page';
 }
